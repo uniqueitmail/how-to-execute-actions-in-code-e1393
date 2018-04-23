@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{928317A6-FCB1-48D9-BFCC-8394F9722113}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>WinWebSolution.Module</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.BonusSkins.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.Data.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.ExpressApp.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.ExpressApp.Objects.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.ExpressApp.Validation.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v9.1, Version=9.1.2.5458, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.ExpressApp.Win.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.OfficeSkins.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.Persistent.Base.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.Persistent.BaseImpl.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.Utils.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v9.1">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.Xpo.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraBars.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraEditors.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraGrid.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraLayout.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraNavBar.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraRichEdit.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraTreeList.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.1, Version=9.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+      <HintPath>d:\Projects\Test_Examples\DLLs\9.1.2\DevExpress.XtraVerticalGrid.v9.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Child.vb" />
+    <Compile Include="Master.vb" />
+    <Compile Include="Module.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module.Designer.vb">
+      <DependentUpon>Module.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActionsInvokerViewController.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ActionsInvokerViewController.Designer.vb">
+      <DependentUpon>ActionsInvokerViewController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Updater.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Module.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActionsInvokerViewController.resx">
+      <DependentUpon>ActionsInvokerViewController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
